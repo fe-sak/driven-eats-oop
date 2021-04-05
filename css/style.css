@@ -86,9 +86,24 @@ body {
   margin-bottom: 15px;
 }
 
+.menu .secao .opcoes .opcao .fundo {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu .secao .opcoes .opcao .preco {
   font-weight: bold;
   font-size: 16px;
+}
+
+.menu .secao .opcoes .opcao .check {
+  opacity: 0;
+  color: #32B72F;
+  font-size: 20px;
+}
+
+.menu .secao .opcoes .opcao.selecionado .check {
+  opacity: 1;
 }
 
 .menu .secao .opcoes .opcao.selecionado {
